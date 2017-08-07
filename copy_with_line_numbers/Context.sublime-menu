@@ -1,3 +1,11 @@
 [
-	{ "caption": "Copy With Line Numbers", "command": "copy_with_line_numbers" }
+	{
+		"caption": "Copy With Line Numbers",
+		"id": "copy_with_line_numbers-menu",
+		"children":
+		[
+		    { "command": "copy_with_line_numbers_text", "caption": "Copy With Line Numbers (Text)" },
+		    { "command": "copy_with_line_numbers_jira", "caption": "Copy With Line Numbers (JIRA)" }
+		]
+	}
 ]

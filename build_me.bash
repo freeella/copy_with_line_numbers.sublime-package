@@ -4,7 +4,7 @@ cd copy_with_line_numbers
 echo "{\"url\": \"https://github.com/freeella/copy_with_line_numbers.sublime-package\", \"version\": \"`date "+%Y.%m.%d.%H.%M.%S"`\", \"description\": \"A sublime package to copy text with files name and numbers\"}" >package-metadata.json
 zip ../Copy\ With\ Line\ Numbers.sublime-package *
 
-TARGETFOLDER=/tmp
+TARGETFOLDER="$HOME/Library/Application Support/Sublime Text 3"
 
 # ----------------------------------------
 # Set folder for Linux
@@ -42,5 +42,5 @@ fi
 rm -rf ${TARGETFOLDER}/Installed\ Packages/Copy\ With\ Line\ Numbers.sublime-package
 rm -rf ${TARGETFOLDER}/Packages/Copy\ With\ Line\ Numbers
 
-cp ../Copy\ With\ Line\ Numbers.sublime-package ${TARGETFOLDER}/Installed\ Packages/
+cp ../Copy\ With\ Line\ Numbers.sublime-package "${TARGETFOLDER}/Installed Packages/"
 
