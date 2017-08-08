@@ -60,9 +60,9 @@ class CopyWithLineNumbersJiraCommand(sublime_plugin.TextCommand):
         # header - set file name
         if view.file_name():
             # Need to replace DOS path \ with /
-            output = "{code|titleBGColor=#F7D6C1|title=File: " + view.file_name().replace("\\","/" ) + "}\n"
+            output = "{code:java|titleBGColor=#F7D6C1|title=File: " + view.file_name().replace("\\","&#92;" ) + "}\n"
         else:
-            output = "{code|titleBGColor=#F7D6C1|title=File: <unsaved>}\n"
+            output = "{code:java|titleBGColor=#F7D6C1|title=File: <unsaved>}\n"
 
         # body
         output = create_output_body(self, output)
