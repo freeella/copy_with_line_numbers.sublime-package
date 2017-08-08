@@ -7,9 +7,15 @@ A sublime package to copy text with files name and numbers
 
 * Place it inside the 'Installed Packages' directory.
 
-[Linux]$ cp SublimePrint.sublime-package ~/.config/sublime-text-2/Installed\ Packages/
+````
+[Linux]$ cp copy_with_line_numbers.sublime-package ~/.config/sublime-text-2/Installed\ Packages/
 
-[OS X]$ cp SublimePrint.sublime-package ~/Library/Application\ Support/Sublime\ Text\ 2/Installed\ Packages/
+[OS X]$ cp copy_with_line_numbers.sublime-package ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/
+
+[WINDOWS]C:\> copy copy_with_line_numbers.sublime-package "%APPDATA%\Sublime Text 3\Installed Packages"
+or
+[WINDOWS]C:\> copy copy_with_line_numbers.sublime-package "%ProgramW6432%\Sublime Text 3\Packages"
+````
 
 * Restart Sublime
 
