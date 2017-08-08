@@ -1,4 +1,4 @@
 [
 	{ "keys": ["ctrl+shift+c"], "command": "copy_with_line_numbers_text"},
-	{ "keys": ["ctrl+alt+c"], "command": "copy_with_line_numbers_jira"}
+	{ "keys": ["ctrl+super+c"], "command": "copy_with_line_numbers_jira"}
 ]
