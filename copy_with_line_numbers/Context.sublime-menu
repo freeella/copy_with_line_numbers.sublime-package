@@ -4,8 +4,11 @@
 		"id": "copy_with_line_numbers-menu",
 		"children":
 		[
-		    { "command": "copy_with_line_numbers_text", "caption": "Copy With Line Numbers (Text)" },
-		    { "command": "copy_with_line_numbers_jira", "caption": "Copy With Line Numbers (JIRA)" }
+		    { "command": "copy_with_line_numbers_text", "caption": "Text - Absolute Path" },
+		    { "command": "copy_with_line_numbers_text_relative", "caption": "Text - Relative Path" },
+		    { "caption": "-", "id": "selection" },
+		    { "command": "copy_with_line_numbers_jira", "caption": "JIRA - Absolute Path" },
+		    { "command": "copy_with_line_numbers_jira_relative", "caption": "JIRA - Relative Path" }
 		]
 	}
 ]
