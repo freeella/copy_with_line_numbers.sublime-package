@@ -1,7 +1,7 @@
 # copy_with_line_numbers.sublime-package
 A sublime package to copy text with files name and numbers
 
-![Copy With Line Numbers Example ](CopyWithLineNumbers.png)
+<img src="CopyWithLineNumbers.png" width="300">
 
 ## Install Sublime package Copy With Line Numbers
 
