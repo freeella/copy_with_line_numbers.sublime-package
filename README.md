@@ -37,4 +37,4 @@ or
 }
 ```
 
-* When installing the package directly to the program directory, no packages are auto removed by Package Control but they might be removed when a Sublime Text is updated.
+* When installing the package directly to the program directory, no packages are auto removed by Package Control but they might be removed when Sublime Text is updated.
