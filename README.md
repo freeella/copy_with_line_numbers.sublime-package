@@ -12,6 +12,8 @@ A sublime package to copy text with files name and numbers
 
 ````
 [Linux]$ cp "Copy With Line Numbers.sublime-package" ~/.config/sublime-text-3/Installed\ Packages/
+or
+[Linux]$ cp "Copy With Line Numbers.sublime-package" /opt/sublime_text/Packages/
 
 
 [OS X]$ cp "Copy With Line Numbers.sublime-package" ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/
